@@ -157,7 +157,7 @@ ORDER BY
         WHEN '9+' THEN 4
     END;
 ```
-<p align="center"> <img src="./images/frequency_bucket_distribution.jpeg" width="700"> </p>
+<p align="center"> <img src="./images/frequency_bucket_distribution.png" width="700"> </p>
 
 ### 5. Score each customer (1 = worst, 4 = best)
 
@@ -286,7 +286,7 @@ FROM rfm_segmented
 GROUP BY rfm_segment
 ORDER BY avg_spend DESC;
 ```
-<p align="center"> <img src="./images/rfm_segment_summary.jpeg" width="700"> </p>
+<p align="center"> <img src="./images/rfm_segment_summary.png" width="700"> </p>
 
 ### Segment Definitions
 
@@ -299,7 +299,7 @@ ORDER BY avg_spend DESC;
 - **Lost Customers**: formerly active customers who are now inactive and ave low historical value
 
 ## PowerBI Dashboard
-<p align="center"> <img src="./images/powerbi_rfm_dashboard.jpeg" width="800"> </p>
+<p align="center"> <img src="./images/powerbi_rfm_dashboard.png" width="800"> </p>
 
 ## SQL: Cohort Analysis (PostgreSQL)
 
