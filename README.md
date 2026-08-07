@@ -1,4 +1,4 @@
-# RFM Segmentation & Cohort Analysis# Customer Retention Analysis: RFM Segmentation & Cohort Analysis
+# RFM Segmentation & Cohort Analysis
 
 **Tools:** Python · PostgreSQL · Power BI
 
